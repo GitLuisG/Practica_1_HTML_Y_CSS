@@ -10,6 +10,12 @@ body{
     margin-right: auto;
     padding: 10px 15px 10px 15px;
 }
+#tabla-datos{
+    border-collapse: collapse;
+}
+.td-m{
+    border: 1px solid #0000CC;
+}
 .action-link {
     cursor: pointer;
     font-style: underline;
