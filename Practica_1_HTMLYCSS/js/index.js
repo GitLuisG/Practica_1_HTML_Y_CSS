@@ -7,8 +7,10 @@ function btnEnviar_click(e){
     alert('hola '+txtNombre.value+' Sus datos se estan enviando...');
 }
 
+
 const btnEnviar1_click = (e)=>{
     alert('hola mundo!');
 }
 
 btnEnviar.addEventListener('click',btnEnviar1_click);
+
