@@ -11,20 +11,23 @@
         <div id="contenedor">
         <H1>Practica 01</H1>
         <P>Esta es la primera practica de Programacion Web</P>
-        <p>Da click <span class="action-link"><a href="#">AQUI</a></span></p>
-        <p>O puedes dar <span class="action-link"><a href="#">AQUI</a></span></p>
-        <table>
+        <p>Da click <span id="spanA" class="action-link">AQUI</span></p>
+        <p>O puedes dar <span id="spanB" class="action-link">AQUI</span></p>
+        <table id="tabla-datos">
             <tbody>
                 <tr>
-                    <td><label for="txtNombre">Nombre: </label></td>
-                    <td><input id="txtNombre" type="text" placeholder="Nombre" title="Ingrese aqui su nombre" /></td>
+                    <td class="td-m"><label for="txtNombre">Nombre: </label></td>
+                    <td class="td-m"><input id="txtNombre" type="text" placeholder="Nombre" title="Ingrese aqui su nombre" /></td>
                 </tr>
                 <tr>
-                    <td><label>Nacimiento:</label></td>
-                    <td> <input id="txtNacimiento" type="date" placeholder="Fecha de Nacimiento" title="Ingrese aqui su Fecha de Nacimiento"/></td>
+                    <td class="td-m"><label for="txtNacimiento">Nacimiento:</label></td>
+                    <td class="td-m"> <input id="txtNacimiento" type="date" placeholder="Fecha de Nacimiento" title="Ingrese aqui su Fecha de Nacimiento"/></td>
                 </tr>
             </tbody>
         </table>
+        <input id="btnEnviar" type="button" value="Enviar"/>
         </div>
+        <script src="js/index.js"></script>
     </body>
+    
 </html>
